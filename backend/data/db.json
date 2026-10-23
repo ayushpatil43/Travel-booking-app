@@ -1,0 +1,701 @@
+{
+  "cities": [
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "tagline": "Ancient Temples & Zen Moss Gardens",
+      "image": "/images/kyoto_zen_forest_1792734510614.jpg",
+      "adventureCount": 6,
+      "featured": true
+    },
+    {
+      "id": "amalfi",
+      "name": "Amalfi Coast",
+      "country": "Italy",
+      "tagline": "Cliffside Olive Groves & Tyrrhenian Sea",
+      "image": "/images/amalfi_olive_coast_1792734543691.jpg",
+      "adventureCount": 5,
+      "featured": true
+    },
+    {
+      "id": "swiss-alps",
+      "name": "Swiss Alps (Zermatt)",
+      "country": "Switzerland",
+      "tagline": "Alpine Glaciers & Evergreen Pines",
+      "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=900&q=80",
+      "adventureCount": 4,
+      "featured": true
+    },
+    {
+      "id": "bali",
+      "name": "Ubud, Bali",
+      "country": "Indonesia",
+      "tagline": "Terraced Rice Paddies & Ayurvedic Sanctuaries",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80",
+      "adventureCount": 5,
+      "featured": true
+    },
+    {
+      "id": "banff",
+      "name": "Banff & Lake Louise",
+      "country": "Canada",
+      "tagline": "Glacial Turquoise Waters & Pine Ridges",
+      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=900&q=80",
+      "adventureCount": 4,
+      "featured": false
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "tagline": "Atlantic Escarpments & Coastal Fynbos",
+      "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=900&q=80",
+      "adventureCount": 3,
+      "featured": false
+    }
+  ],
+  "adventures": [
+    {
+      "id": "adv-kyoto-01",
+      "cityId": "kyoto",
+      "cityName": "Kyoto, Japan",
+      "name": "Arashiyama Bamboo Forest & Heritage Tea Ceremony",
+      "category": "Cultural & Heritage",
+      "costPerHead": 120,
+      "currency": "USD",
+      "duration": 5,
+      "durationUnit": "Hours",
+      "rating": 4.96,
+      "reviewsCount": 418,
+      "groupSize": "Small Group (Max 8)",
+      "image": "/images/kyoto_zen_forest_1792734510614.jpg",
+      "gallery": [
+        "/images/kyoto_zen_forest_1792734510614.jpg",
+        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Embark on an intimate, early morning journey through the whispering bamboo groves of Arashiyama before the crowds arrive. Walk centuries-old moss stone pathways led by a licensed cultural historian, explore the Tenryu-ji Zen garden, and participate in an authentic private matcha tea ceremony hosted in a 300-year-old machiya estate.",
+      "highlights": [
+        "Private early access to Arashiyama bamboo paths",
+        "Master-led matcha preparation and wagashi sweet tasting",
+        "Guided exploration of UNESCO Tenryu-ji Sogenchi garden",
+        "English and Japanese bilingual cultural specialist"
+      ],
+      "inclusions": [
+        "Tenryu-ji temple & garden entrance fees",
+        "Formal tea master session with ceremonial grade matcha",
+        "Seasonal handmade wagashi confections",
+        "Traditional bamboo souvenir crafted by local artisan",
+        "Bottled spring water and organic green tea"
+      ],
+      "exclusions": [
+        "Hotel transport (optional add-on available)",
+        "Gratuities for the guide and tea master"
+      ],
+      "itinerary": [
+        {
+          "time": "07:30 AM",
+          "title": "Meeting at Saga-Arashiyama Station",
+          "detail": "Welcome greeting, audio receiver distribution, and orientation over warm roasted hojicha."
+        },
+        {
+          "time": "08:00 AM",
+          "title": "Quiet Bamboo Forest Walk",
+          "detail": "Experience the famous grove during serene dawn stillness with photography guidance."
+        },
+        {
+          "time": "09:30 AM",
+          "title": "Tenryu-ji Zen Sanctuary",
+          "detail": "Contemplate the 14th-century pond and dry rock landscape with our historian."
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Private Machiya Tea Ritual",
+          "detail": "Sit in a restored wooden townhouse for an authentic ceremonial matcha experience."
+        }
+      ],
+      "meetingPoint": "Saga-Arashiyama Station North Exit, Ukyo Ward, Kyoto",
+      "availableSlots": [
+        "07:30 AM",
+        "01:30 PM"
+      ],
+      "freeCancellationHours": 48
+    },
+    {
+      "id": "adv-amalfi-01",
+      "cityId": "amalfi",
+      "cityName": "Amalfi Coast, Italy",
+      "name": "Path of the Gods Ridge Trek & Organic Olive Oil Tasting",
+      "category": "Adventure & Hiking",
+      "costPerHead": 145,
+      "currency": "USD",
+      "duration": 6,
+      "durationUnit": "Hours",
+      "rating": 4.98,
+      "reviewsCount": 532,
+      "groupSize": "Intimate (Max 10)",
+      "image": "/images/amalfi_olive_coast_1792734543691.jpg",
+      "gallery": [
+        "/images/amalfi_olive_coast_1792734543691.jpg",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Traverse the legendary Sentiero degli Dei high above the sapphire waters of the Amalfi coastline. Breathe in wild rosemary and sage along ancient stone trails, descend through century-old olive orchards, and enjoy a private farmhouse lunch featuring extra virgin olive oil pressed on-site and artisanal sheep cheeses.",
+      "highlights": [
+        "Spectacular cliffside panoramic vistas of Positano & Capri",
+        "Guided by certified Alpine & coastal trail leader",
+        "Exclusive rustic lunch at family-run olive grove estate",
+        "Tasting flight of 4 cold-pressed olive oils & local wine"
+      ],
+      "inclusions": [
+        "Professional UIAGM certified mountain/hiking leader",
+        "Full farm-to-table lunch with freshly baked focaccia & cheeses",
+        "Olive oil tasting seminar with fourth-generation producer",
+        "Trekking poles available upon request",
+        "Local transport assistance back to Bomerano/Positano"
+      ],
+      "exclusions": [
+        "Stout hiking footwear (please bring sturdy trainers or hiking boots)",
+        "Personal travel insurance"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30 AM",
+          "title": "Bomerano Trailhead Departure",
+          "detail": "Gear check and route briefing amidst mountain morning mist."
+        },
+        {
+          "time": "10:15 AM",
+          "title": "Colle della Serra Panorama",
+          "detail": "Rest stop overlooking the Mediterranean cliffs and ancient shepherd shelters."
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Nocelle Olive Farm Lunch",
+          "detail": "Savor warm stone-oven bread, bruschetta, organic EVO oil, and limoncello."
+        },
+        {
+          "time": "02:30 PM",
+          "title": "Arrival in Positano",
+          "detail": "Optional coastal boat shuttle or town exploration."
+        }
+      ],
+      "meetingPoint": "Piazza Paolo Capasso, 80051 Bomerano, Agerola",
+      "availableSlots": [
+        "08:30 AM"
+      ],
+      "freeCancellationHours": 48
+    },
+    {
+      "id": "adv-swiss-01",
+      "cityId": "swiss-alps",
+      "cityName": "Zermatt, Switzerland",
+      "name": "Gornergrat Glacier Panorama & Alpine Lake Trek",
+      "category": "Adventure & Hiking",
+      "costPerHead": 195,
+      "currency": "USD",
+      "duration": 7,
+      "durationUnit": "Hours",
+      "rating": 4.95,
+      "reviewsCount": 289,
+      "groupSize": "Small Group (Max 8)",
+      "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Witness the dramatic pyramid of the Matterhorn mirrored in pristine alpine waters. Ascend aboard the historic Gornergrat cogwheel train, hike across wildflower meadows and moraine stone paths, and savor warm Swiss fondue at a secluded mountain hut perched 2,800 meters above sea level.",
+      "highlights": [
+        "Unobstructed views of 29 four-thousand-meter Alpine peaks",
+        "Riffelsee mirror photography of the iconic Matterhorn",
+        "Swiss raclette & fondue tasting at historic mountain refugio",
+        "Glaciology insights from local alpine naturalist"
+      ],
+      "inclusions": [
+        "Certified Swiss mountain trail guide",
+        "Traditional alpine lunch with regional Gruyère & Valais wine",
+        "Telescope wildlife viewing session (marmots & ibex)",
+        "Warm thermal trail blanket and high-altitude tea"
+      ],
+      "exclusions": [
+        "Gornergrat Bahn railway pass (guidance provided on booking with Swiss Pass)",
+        "Cold weather clothing (layers strongly recommended)"
+      ],
+      "itinerary": [
+        {
+          "time": "08:45 AM",
+          "title": "Zermatt Station Rendezvous",
+          "detail": "Meet your guide by the historic Gornergrat railway terminal."
+        },
+        {
+          "time": "09:30 AM",
+          "title": "Summit Platform & Glacier Walk",
+          "detail": "Survey the Gorner Glacier, Europe’s second-largest glacial system."
+        },
+        {
+          "time": "11:30 AM",
+          "title": "Riffelsee Lake Hike",
+          "detail": "Gentle descent capturing iconic reflections in crystal mountain waters."
+        },
+        {
+          "time": "01:30 PM",
+          "title": "Mountain Refugio Fondue Feast",
+          "detail": "Warm artisan lunch overlooking the pine valley."
+        }
+      ],
+      "meetingPoint": "Gornergrat Bahn Station Hall, Bahnhofplatz, Zermatt",
+      "availableSlots": [
+        "08:45 AM"
+      ],
+      "freeCancellationHours": 72
+    },
+    {
+      "id": "adv-bali-01",
+      "cityId": "bali",
+      "cityName": "Ubud, Bali",
+      "name": "Tegallalang Terraced Fields, Organic Herbal Farm & Sound Healing",
+      "category": "Wellness & Nature",
+      "costPerHead": 85,
+      "currency": "USD",
+      "duration": 5,
+      "durationUnit": "Hours",
+      "rating": 4.93,
+      "reviewsCount": 612,
+      "groupSize": "Small Group (Max 10)",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Escape deep into the emerald green heart of Ubud. Walk hidden rice terraces preserved through the ancient subak cooperative irrigation system. Discover indigenous medicinal plants with a local Balinese herbalist, blend your own traditional jamu elixir, and unwind with an immersive Tibetan singing bowl sound bath.",
+      "highlights": [
+        "Private path access away from commercial tourist swings",
+        "Hands-on jamu herbal elixir making workshop",
+        "Restorative 45-minute sound healing in an open bamboo shala",
+        "Vegan organic garden lunch served on banana leaves"
+      ],
+      "inclusions": [
+        "Subak sanctuary donation & access permissions",
+        "Freshly squeezed cold-pressed herbal elixirs",
+        "Full organic Balinese harvest lunch",
+        "Sound meditation session with certified practitioner"
+      ],
+      "exclusions": [
+        "Personal transport beyond Central Ubud pickup points"
+      ],
+      "itinerary": [
+        {
+          "time": "08:00 AM",
+          "title": "Ubud Center Gathering",
+          "detail": "Morning herbal tea welcome and blessing ceremony."
+        },
+        {
+          "time": "08:45 AM",
+          "title": "Terrace Walk & Subak Story",
+          "detail": "Learn about the 9th-century water ecology and rice harvesting."
+        },
+        {
+          "time": "10:30 AM",
+          "title": "Medicinal Garden Elixir Workshop",
+          "detail": "Harvest turmeric, ginger, and lemongrass for custom remedies."
+        },
+        {
+          "time": "12:00 PM",
+          "title": "Sound Bath & Farm Lunch",
+          "detail": "Relaxation session followed by farm-to-table feast."
+        }
+      ],
+      "meetingPoint": "Saraswati Temple Courtyard, Jalan Raya Ubud",
+      "availableSlots": [
+        "08:00 AM",
+        "01:30 PM"
+      ],
+      "freeCancellationHours": 24
+    },
+    {
+      "id": "adv-kyoto-02",
+      "cityId": "kyoto",
+      "cityName": "Kyoto, Japan",
+      "name": "Kiyomizu-dera Dawn Walk & Artisan Pottery Masterclass",
+      "category": "Cultural & Heritage",
+      "costPerHead": 110,
+      "currency": "USD",
+      "duration": 4,
+      "durationUnit": "Hours",
+      "rating": 4.91,
+      "reviewsCount": 210,
+      "groupSize": "Small Group (Max 6)",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Experience the historic wooden terrace of Kiyomizu-dera bathed in early dawn light over the Higashiyama hills. Then visit a traditional Kyo-yaki ceramic workshop tucked into preserved stone alleys, where you will shape and glaze your own authentic ceramic tea bowl at the wheel.",
+      "highlights": [
+        "Uncrowded early dawn access to Kiyomizu stage",
+        "One-on-one pottery guidance on electric and kick wheels",
+        "International shipping of your glazed pottery piece included",
+        "Historic stroll through Ninenzaka & Sannenzaka"
+      ],
+      "inclusions": [
+        "Temple admission tickets",
+        "Clay materials, firing, and overseas shipping of 1 finished cup/bowl",
+        "Artisan tea and Kyoto confection"
+      ],
+      "exclusions": [
+        "Additional pottery pieces beyond the included piece"
+      ],
+      "itinerary": [
+        {
+          "time": "06:30 AM",
+          "title": "Dawn Gathering at Chion-in Gate",
+          "detail": "Quiet stroll as monks begin morning chants."
+        },
+        {
+          "time": "07:15 AM",
+          "title": "Kiyomizu-dera Platform",
+          "detail": "Breathtaking hillside vantage over Kyoto city."
+        },
+        {
+          "time": "08:45 AM",
+          "title": "Kyo-yaki Ceramic Studio",
+          "detail": "Clay throwing and glazing under artisan tutelage."
+        }
+      ],
+      "meetingPoint": "Chion-in Sanmon Main Gate, Higashiyama, Kyoto",
+      "availableSlots": [
+        "06:30 AM"
+      ],
+      "freeCancellationHours": 48
+    },
+    {
+      "id": "adv-amalfi-02",
+      "cityId": "amalfi",
+      "cityName": "Amalfi Coast, Italy",
+      "name": "Capri & Blue Grotto Vintage Wooden Gozzo Boat Charter",
+      "category": "Water & Coast",
+      "costPerHead": 180,
+      "currency": "USD",
+      "duration": 7,
+      "durationUnit": "Hours",
+      "rating": 4.97,
+      "reviewsCount": 440,
+      "groupSize": "Small Group (Max 8)",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Sail across azure Mediterranean waters on an authentic handcrafted Italian Gozzo boat. Anchor in secluded sea grottos with fluorescent emerald water, swim along the dramatic Faraglioni rock formations, and dock for lunch in Capri's charming Marina Grande.",
+      "highlights": [
+        "Skippered tour aboard classic varnished mahogany Gozzo",
+        "Snorkeling gear provided in translucent marine reserves",
+        "Complimentary chilled Prosecco, San Pellegrino & fresh figs",
+        "3 hours free time to explore Capri town and Anacapri"
+      ],
+      "inclusions": [
+        "Licensed maritime captain & fuel charges",
+        "Snorkeling masks and beach towels",
+        "Prosecco aperitivo with cured olives and taralli",
+        "Marina landing fees in Capri"
+      ],
+      "exclusions": [
+        "Optional rowboat entrance to Blue Grotto (payable at cave entrance)",
+        "Lunch in Capri town"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00 AM",
+          "title": "Amalfi Marina Boarding",
+          "detail": "Safety welcome, route map, and welcome espresso."
+        },
+        {
+          "time": "10:30 AM",
+          "title": "Faraglioni Sea Arches",
+          "detail": "Anchor for swimming and sea cave snorkeling."
+        },
+        {
+          "time": "12:30 PM",
+          "title": "Marina Grande Capri",
+          "detail": "Dock for leisure, chairlift to Monte Solaro, or shopping."
+        },
+        {
+          "time": "03:45 PM",
+          "title": "Sunset Cruise Return",
+          "detail": "Prosecco toast cruising past Li Galli islands."
+        }
+      ],
+      "meetingPoint": "Molo Pennello, Amalfi Port, 84011 Amalfi SA",
+      "availableSlots": [
+        "09:00 AM"
+      ],
+      "freeCancellationHours": 48
+    },
+    {
+      "id": "adv-banff-01",
+      "cityId": "banff",
+      "cityName": "Banff, Canada",
+      "name": "Moraine Lake Sunrise Canoe & Valley of the Ten Peaks Trail",
+      "category": "Adventure & Hiking",
+      "costPerHead": 165,
+      "currency": "USD",
+      "duration": 6,
+      "durationUnit": "Hours",
+      "rating": 4.99,
+      "reviewsCount": 380,
+      "groupSize": "Small Group (Max 8)",
+      "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Glice across the glassy, glacier-fed turquoise waters of Moraine Lake as the first rays of sunlight illuminate the snow-dusted Ten Peaks. Follow a guided wildlife trek through fragrant subalpine fir forest to the Sentinel Pass viewpoint.",
+      "highlights": [
+        "Guaranteed early dawn access to restricted Moraine Lake road",
+        "1-hour cedar strip canoe paddle on pristine waters",
+        "Interpretive naturalist guide sharing bear biology and geology",
+        "Gourmet hot chocolate and Canadian maple pastries"
+      ],
+      "inclusions": [
+        "Parks Canada commercial shuttle permit access",
+        "Premium canoe rental and life vest equipment",
+        "Bear safety equipment (bear spray provided to guide)",
+        "Artisanal breakfast picnic"
+      ],
+      "exclusions": [
+        "Parks Canada national park pass"
+      ],
+      "itinerary": [
+        {
+          "time": "05:30 AM",
+          "title": "Banff Town Shuttle",
+          "detail": "Early pickup to beat the sunrise crowds."
+        },
+        {
+          "time": "06:15 AM",
+          "title": "First Light Canoe Launch",
+          "detail": "Paddle beneath the towering rock walls of the Ten Peaks."
+        },
+        {
+          "time": "08:00 AM",
+          "title": "Larch Valley Gentle Hike",
+          "detail": "Trek through ancient larch forests to high alpine meadows."
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Picnic & Return",
+          "detail": "Relax along the rock pile before scenic transfer to Banff."
+        }
+      ],
+      "meetingPoint": "Banff Train Station East Parking, Banff, AB",
+      "availableSlots": [
+        "05:30 AM"
+      ],
+      "freeCancellationHours": 72
+    },
+    {
+      "id": "adv-cape-01",
+      "cityId": "cape-town",
+      "cityName": "Cape Town, South Africa",
+      "name": "Cape Point Fynbos Coastal Hike & Boulders Penguin Colony",
+      "category": "Wildlife & Eco",
+      "costPerHead": 130,
+      "currency": "USD",
+      "duration": 8,
+      "durationUnit": "Hours",
+      "rating": 4.92,
+      "reviewsCount": 195,
+      "groupSize": "Small Group (Max 8)",
+      "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=900&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Travel the dramatic Chapmans Peak Drive down to the southwestern tip of the African continent. Spot wild ostriches, baboons, and sea birds amidst indigenous floral kingdom fynbos, followed by an up-close boardwalk visit to the African penguin colony at Boulders Beach.",
+      "highlights": [
+        "Scenic drive voted one of the top 10 coastal drives in the world",
+        "Lighthouse hike at Cape of Good Hope nature reserve",
+        "Boardwalk encounter with endangered African jackass penguins",
+        "Fresh linefish lunch in the historic maritime village of Kalk Bay"
+      ],
+      "inclusions": [
+        "All national park conservation entry fees",
+        "Boulders Beach sanctuary entry ticket",
+        "Air-conditioned boutique minivan transport",
+        "Knowledgeable FGASA qualified nature guide"
+      ],
+      "exclusions": [
+        "Lunch and beverages at Harbour House restaurant"
+      ],
+      "itinerary": [
+        {
+          "time": "08:30 AM",
+          "title": "Cape Town Waterfront Pickup",
+          "detail": "Depart along the Atlantic seaboard via Camps Bay."
+        },
+        {
+          "time": "10:15 AM",
+          "title": "Cape of Good Hope Reserve",
+          "detail": "Hike to the old lighthouse lookout and Dias cross."
+        },
+        {
+          "time": "01:00 PM",
+          "title": "Kalk Bay Harbour Lunch",
+          "detail": "Enjoy fresh catch overlooking fishing boats and seals."
+        },
+        {
+          "time": "02:45 PM",
+          "title": "Boulders Beach Penguins",
+          "detail": "Walk the wooden boardwalks observing nesting penguins."
+        }
+      ],
+      "meetingPoint": "V&A Waterfront Information Kiosk, Cape Town",
+      "availableSlots": [
+        "08:30 AM"
+      ],
+      "freeCancellationHours": 48
+    },
+    {
+      "id": "adv-kyoto-6076",
+      "cityId": "kyoto",
+      "cityName": "Kyoto, Japan",
+      "name": "Reykjavik Geothermal Hot Springs & Highland Fjord Trek",
+      "category": "Adventure & Hiking",
+      "costPerHead": 175,
+      "currency": "USD",
+      "duration": 6,
+      "durationUnit": "Hours",
+      "rating": 5,
+      "reviewsCount": 1,
+      "groupSize": "Small Group (Max 8)",
+      "image": "/images/kyoto_zen_forest_1792734510614.jpg",
+      "gallery": [
+        "/images/kyoto_zen_forest_1792734510614.jpg",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Hike through otherworldly volcanic basalt valleys and bathe in secluded natural hot springs.",
+      "highlights": [
+        "Certified local expert guide",
+        "Intimate small group experience",
+        "All local permits and entries included",
+        "Curated scenic viewpoints"
+      ],
+      "inclusions": [
+        "Expert bilingual leader",
+        "Safety equipment & water",
+        "Local artisan tasting"
+      ],
+      "exclusions": [
+        "Personal transport to meeting hub",
+        "Gratuities"
+      ],
+      "itinerary": [
+        {
+          "time": "09:00 AM",
+          "title": "Welcome & Briefing",
+          "detail": "Meet your guide and review route."
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Main Expedition",
+          "detail": "Guided excursion through scenic landmarks."
+        },
+        {
+          "time": "01:00 PM",
+          "title": "Local Tasting & Conclusion",
+          "detail": "Conclude with refreshing local beverage."
+        }
+      ],
+      "meetingPoint": "Kyoto Central Historic Square",
+      "availableSlots": [
+        "09:00 AM",
+        "02:00 PM"
+      ],
+      "freeCancellationHours": 48
+    }
+  ],
+  "reservations": [
+    {
+      "id": "res-1792735826937",
+      "reservationCode": "QT-80834-S",
+      "adventureId": "adv-kyoto-01",
+      "adventureName": "Arashiyama Bamboo Forest & Heritage Tea Ceremony",
+      "cityName": "Kyoto, Japan",
+      "date": "2026-11-20",
+      "slot": "07:30 AM",
+      "traveler": {
+        "fullName": "Eleanor Vance",
+        "email": "eleanor.vance@slowtravel.com",
+        "phone": "+1 415-555-0199",
+        "guests": 3,
+        "adults": 2,
+        "children": 1,
+        "specialRequests": "None"
+      },
+      "addOns": [
+        {
+          "name": "Hotel Shuttle",
+          "price": 25
+        }
+      ],
+      "costBreakdown": {
+        "costPerHead": 120,
+        "adults": 2,
+        "children": 1,
+        "guestsCount": 3,
+        "baseTotal": 330,
+        "addOnsTotal": 25,
+        "serviceFee": 18,
+        "discount": 36,
+        "totalAmount": 337,
+        "currency": "USD"
+      },
+      "status": "Cancelled / Refunded",
+      "createdAt": "2026-10-23T06:10:26.937Z",
+      "cancelledAt": "2026-10-23T06:13:30.956Z"
+    },
+    {
+      "id": "res-91024",
+      "reservationCode": "QT-78921-X",
+      "adventureId": "adv-kyoto-01",
+      "adventureName": "Arashiyama Bamboo Forest & Heritage Tea Ceremony",
+      "cityName": "Kyoto, Japan",
+      "date": "2026-11-14",
+      "slot": "07:30 AM",
+      "traveler": {
+        "fullName": "Elena Rostova",
+        "email": "elena.rostova@traveler.org",
+        "phone": "+1 415-890-2341",
+        "guests": 2,
+        "adults": 2,
+        "children": 0,
+        "specialRequests": "One vegetarian wagashi requested for tea ceremony"
+      },
+      "addOns": [
+        {
+          "name": "Hotel Morning Pickup",
+          "price": 25
+        },
+        {
+          "name": "Carbon Offset Contribution",
+          "price": 5
+        }
+      ],
+      "costBreakdown": {
+        "costPerHead": 120,
+        "guestsCount": 2,
+        "baseTotal": 240,
+        "addOnsTotal": 30,
+        "serviceFee": 12,
+        "discount": 0,
+        "totalAmount": 282,
+        "currency": "USD"
+      },
+      "status": "Confirmed",
+      "createdAt": "2026-10-21T09:15:00.000Z"
+    }
+  ]
+}

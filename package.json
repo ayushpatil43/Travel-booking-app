@@ -1,0 +1,23 @@
+{
+  "name": "qtrip-fullstack-mern",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "QTrip : Travel and Activity Booking Platform (MERN Stack with Sage Green & Olive Stone Design)",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "node start-dev.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  },
+  "keywords": ["travel", "booking", "mern", "react", "express", "nodejs", "vercel"],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}
