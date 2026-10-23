@@ -4,7 +4,7 @@
   "type": "module",
   "description": "QTrip : Travel and Activity Booking Platform (MERN Stack with Sage Green & Olive Stone Design)",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "node build.js",
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
     "install:all": "npm run install:backend && npm run install:frontend",
